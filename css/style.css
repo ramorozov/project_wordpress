@@ -1,0 +1,119 @@
+/* Сброс значений элементов по умолчанию */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo{
+    height: 800px;
+    background: url('../img/bg/main.jpg') center center/cover no-repeat;
+    padding: 38px 0 61px 0;
+}
+
+.logo .logo_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 9px;
+    text-align: center;
+}
+
+h1{
+    margin-top: 53px;
+    margin-bottom: 0;
+}
+
+.title{
+    color: #F9BF3B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.simple .title_big{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+h2.title{
+    margin-top: 20px;
+}
+
+.promo_descr{
+    color: #FFF;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 22px;
+}
+
+.promo_descr span{
+    color: #F9BF3B;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.promo_btn{
+    display: block;
+    margin: 0 auto;
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.40);
+    margin-top: 72px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    font-family: RobotoCondensed;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.promo_more{
+    margin-top: 70px;
+}
+
+.promo_more .more_text{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.promo_more .more_img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 4px;
+}
