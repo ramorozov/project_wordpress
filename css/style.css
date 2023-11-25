@@ -11,7 +11,7 @@
 }
 
 .promo{
-    height: 800px;
+    min-height: 800px;
     background: url('../img/bg/main.jpg') center center/cover no-repeat;
     padding: 38px 0 61px 0;
 }
@@ -116,4 +116,64 @@ h2.title{
     display: block;
     margin: 0 auto;
     margin-top: 4px;
+}
+
+.waiting{
+    min-height: 607px;
+    background-color: #EFEFEF;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header{
+    color: #252525;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.waiting .waiting_divider{
+    width: 220px;
+    height: 7px;
+    background-color: #F9BF3B;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.waiting .waiting_subheader{
+    color: #4A4A4A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 18px;
+}
+
+.waiting .waiting_wrapper{
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item{
+    display: inline-block;
+    vertical-align: top;
+    width: 342px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img{
+    width: 100%;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr{
+    color: #4A4A4A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+    margin-top: 26px;
 }
