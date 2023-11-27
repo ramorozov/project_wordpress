@@ -6,6 +6,7 @@
 }
 
 .container{
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -176,4 +177,41 @@ h2.title{
     font-weight: 300;
     line-height: 21px;
     margin-top: 26px;
+}
+
+.optimization{
+    min-height: 549px;
+    padding: 108px 0 47px 0;
+}
+
+.optimization .optimization_header{
+    margin-left: 391px;
+    color: #299CBD;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text{
+    margin-left: 391px;
+    margin-top: 25px;
+    color: #4A4A4A;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.optimization .optimization_text span{
+    font-weight: 700;
+}
+
+.optimization .optimization_img{
+    position: absolute;
+    top: -61px;
+    left: -228px;
+    z-index: -1;
 }
