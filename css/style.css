@@ -80,7 +80,7 @@ h2.title{
     text-transform: uppercase;
 }
 
-.promo_btn{
+.promo_btn, .intensiv_btn{
     display: block;
     margin: 0 auto;
     width: 313px;
@@ -260,4 +260,30 @@ h2.title{
     font-weight: 300;
     line-height: 20px;
     margin-top: 24px;
+}
+
+.intensiv{
+    min-height: 631px;
+    padding: 88px 0;
+    background-color: #EFEFEF;
+}
+
+.intensiv .intensiv_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.intensiv .intensiv_descr{
+    margin-top: 45px;
+    color: #252525;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px;
+}
+
+.intensiv .intensiv_btn{
+    margin-top: 51px;
 }
