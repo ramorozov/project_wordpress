@@ -311,3 +311,25 @@ h2.title{
 .webinar .webinar_descr{
     margin-top: 24px;
 }
+
+.info{
+    min-height: 169px;
+    padding: 57px 0 69px 0;
+    background-color: #1A1A1A;
+    text-align: center;
+    color: #888;
+}
+
+.info .info_support, .info .info_privacy, .info .info_tel {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 21px;
+    color: #888;
+    text-decoration-line: underline;    
+}
+
+.info .info_tel {
+    text-decoration-line: none;
+}
