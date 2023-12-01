@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
 .container{
     position: relative;
     width: 1140px;
@@ -24,7 +28,6 @@
 
 .logo .logo_text{
     color: #FFF;
-    font-family: Roboto;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -41,7 +44,6 @@ h1{
 .title{
     color: #F9BF3B;
     text-align: center;
-    font-family: Roboto;
     font-size: 41px;
     font-style: normal;
     font-weight: 900;
@@ -51,7 +53,6 @@ h1{
 .simple .title_big{
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 80px;
     font-style: normal;
     font-weight: 900;
@@ -66,7 +67,6 @@ h2.title{
 .promo_descr{
     color: #FFF;
     text-align: justify;
-    font-family: Roboto;
     font-size: 21px;
     font-style: normal;
     font-weight: 300;
@@ -91,7 +91,6 @@ h2.title{
     color: #FFF;
     text-align: center;
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
-    font-family: RobotoCondensed;
     font-size: 21px;
     font-style: normal;
     font-weight: 400;
@@ -106,7 +105,6 @@ h2.title{
 .promo_more .more_text{
     color: #FFF;
     text-align: center;
-    font-family: Roboto;
     font-size: 15px;
     font-style: normal;
     font-weight: 100;
@@ -128,7 +126,6 @@ h2.title{
 .waiting .waiting_header, .finish .finish_header, .webinar .webinar_header{
     color: #252525;
     text-align: center;
-    font-family: Roboto;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -146,7 +143,6 @@ h2.title{
 .waiting .waiting_subheader, .webinar .webinar_descr{
     color: #4A4A4A;
     text-align: center;
-    font-family: Roboto;
     font-size: 23px;
     font-style: normal;
     font-weight: 400;
@@ -171,7 +167,6 @@ h2.title{
 .waiting .waiting_wrapper .waiting_item .waiting_descr{
     color: #4A4A4A;
     text-align: center;
-    font-family: Roboto;
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
@@ -187,7 +182,6 @@ h2.title{
 .optimization .optimization_header, .webinar .webinar_subheader{
     margin-left: 391px;
     color: #299CBD;
-    font-family: Roboto;
     font-size: 30px;
     font-style: normal;
     font-weight: 900;
@@ -198,7 +192,6 @@ h2.title{
     margin-left: 391px;
     margin-top: 25px;
     color: #4A4A4A;
-    font-family: Roboto;
     font-size: 17px;
     font-style: normal;
     font-weight: 300;
@@ -254,7 +247,6 @@ h2.title{
     color: #EFEFEF;
     text-align: center;
     vertical-align: top;
-    font-family: Roboto;
     font-size: 17px;
     font-style: normal;
     font-weight: 300;
@@ -277,7 +269,6 @@ h2.title{
     margin-top: 45px;
     color: #252525;
     text-align: center;
-    font-family: Roboto;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -321,7 +312,6 @@ h2.title{
 }
 
 .info .info_support, .info .info_privacy, .info .info_tel {
-    font-family: Roboto;
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
